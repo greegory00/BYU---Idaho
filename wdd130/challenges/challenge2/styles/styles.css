@@ -1,0 +1,39 @@
+body {
+    background-color: grey;
+}
+
+.c {
+    display: block;
+    height: 399px;
+    
+    
+}
+
+.d {
+    border-radius: 50%;
+    height: 200px;
+    padding: 10px;
+    background-color: black;
+    margin: 50px;
+    
+}
+
+.g {
+    border-radius: 50%;
+    height: 200px;
+    padding: 10px;
+    background-color: black;
+    margin: 50px;
+    
+    
+}
+
+.p {
+    border-radius: 50%;
+    height: 200px;
+    padding: 10px;
+    background-color: black;
+    margin: 50px;
+    
+    
+}
