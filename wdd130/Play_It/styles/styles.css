@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Aleo&display=swap');
+
+
+
+div content{
+    max-width: 1600px;
+}
+
+
+
+
+nav a {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+
+main section {
+    text-align: center;
+}
+
+
+
+body {
+    background-color: #00A9A5;
+    font-family: Aleo, Antic Slab, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #2A3D45;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black
+}
+
+
+
+footer {
+    background-color: #2A3D45;
+    padding: 25px 50px;
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+.logo {
+    width: 80px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#logo_link {
+    
+    justify-self: center;
+    align-self: center;
+}
+
+.home-page {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+}
+
+
+.p1 {
+    font-size: 25px;
+
+}
+
+.p1-2 {
+    font-size: 21px;
+}
+
+.page-2 {
+    width: 50%;
+    display: block;
+    margin-left: -200px;
+    padding: 30px;
+    
+}
+
+.p2 {
+    font-size: 25px;
+    width: 75%;
+    display: block;
+    margin-left: 300px;
+    padding: 30px;
+
+}
+
+.page-3 {
+    width: 50%;
+    display: block;
+    margin-left: 550px;
+    padding: 30px;
+}
+
+.p3 {
+    font-size: 25px;
+    width: 75%;
+    display: block;
+    padding: 30px;
+}
