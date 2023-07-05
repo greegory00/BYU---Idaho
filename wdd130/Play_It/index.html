@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Play It!</title>
+    <style>
+        .home-page {
+          position: relative;
+          width: 70%;
+        }
+        
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 20%;
+          width: 80%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #008CBA;
+        }
+        
+        .home-page:hover .overlay {
+          opacity: 1;
+        }
+        
+        .text {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        </style>
 </head>
 <body>
     <header>
@@ -21,6 +62,9 @@
         <div>
             <section class="home-page">
                 <img class="home-page" src="images/home-page50.jpg" alt="Home Page">
+                <div class="overlay">
+                    <div class="text">Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point. Its elevation (snow height) of 8,848.86 m (29,031 ft 8+1⁄2 in) was most recently established in 2020 by the Chinese and Nepali authorities.</div>
+                </div>
             <p class="p1">Welcome to Play It! We are a company dedicated to music services, and you will find them in this website. You will have the chance to look for all types of instruments and their tools, learn how to play some of them or how to fix it in case it's broken.</p>
             <p class="p1-2">This website is open for everyone who is interested in music and has the desire to learn (or improve) their skills by playing an specific instrument and buying one (or more than one!).</p>
             
@@ -31,6 +75,7 @@
             <p class="p3">If you have an old or broken instrument and you want to repair it, and if you have access to one of our workshops, you can always go and leave it there. If you don't want to go in person you can rather call and ask any questions you have. The person in charge of the workshop will talk to you about how much will it cost and how much time will the instrument take to repair.</p>
             </section> 
         </div>
+        
 
 
 
